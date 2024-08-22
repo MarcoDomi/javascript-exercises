@@ -24,7 +24,7 @@ const power = function (base, exp) {
 
 const factorial = function (fact) {
   let result = 1;
-  for (let i = fact; i >= 1; i--)
+  for (let i = fact; i > 1; i--)
     result *= i;
 
   return result;
